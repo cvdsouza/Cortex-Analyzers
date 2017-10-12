@@ -1,0 +1,14 @@
+{
+    "name": "CRITs Upload",
+    "version": "1.0",
+    "author": "Clinton Dsouza",
+    "description": "Uploads a binary to CRITs and provides a URL to access the upload",
+    "license": "AGPL-V3",
+    "dataTypeList": ["file"],
+    "baseConfig": "CRITs",
+    "config": {
+        "check_tlp": false,
+        "service": "file_upload"
+    },
+    "command": "CRITs/crits_analyzer.py"
+}
